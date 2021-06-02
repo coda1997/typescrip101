@@ -1,4 +1,7 @@
-function callee(x:number, align: "left"|"right"|"ceter")
+function callee(x:number, align: "left"|"right"|"ceter"){
+    console.log(x);
+    console.log(align);
+}
 
 callee(1,"left")
 //throw an error, cause botton are not the type of align
